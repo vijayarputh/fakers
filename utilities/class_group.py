@@ -13,6 +13,11 @@ def display_class_group_image():
     
     # Display the image
     st.image(image_path, caption="Group Image")
+    
+ # Link to view Class activity
 
+st.markdown("<a href='https://fakers-xpfgh96lasgjvgizbuvldo.streamlit.app/'>View Student Groups</a>", unsafe_allow_html=True)
+
+   
 # Call the function to display the class group image
 display_class_group_image()
