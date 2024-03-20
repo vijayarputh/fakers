@@ -11,10 +11,10 @@ st.header("Objective:")
 st.markdown("To apply the concepts learned in HTML, CSS, and JavaScript by creating a dynamic event planner web application.")
 
 # Task Description section
-st.header("Task Description:")
+st.header("Event Scheduler - Task Description:")
 
 # Event Scheduler (Student 1)
-st.subheader("Event Scheduler (Student 1 - Domain Expert):")
+st.subheader("Domain Expert (Student 1):")
 st.markdown("""
 - Research and provide a brief explanation of the significance of event scheduling and management in various domains such as business, education, and personal life.
 - Propose innovative features or enhancements to improve the event planning process.
@@ -48,5 +48,5 @@ st.markdown("""
 - Submit the document by the specified deadline.
 """)
 
-# Conclusion
-st.markdown("Remember to communicate effectively with your group members, allocate tasks based on individual strengths, and collaborate to create an innovative and functional event planner web application. Good luck!")
+# Link to view student groups
+st.markdown("<a href='https://your_next_page_url'>View Student Groups</a>", unsafe_allow_html=True)
