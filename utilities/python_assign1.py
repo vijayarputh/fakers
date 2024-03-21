@@ -32,7 +32,8 @@ st.markdown("""
 # Presenter (Student 3)
 st.subheader("Presenter (Student 3):")
 st.markdown("""
-- Prepare a PowerPoint presentation (PPT) that showcases the features and functionalities of the event planner web application.
+- Prepare a PowerPoint presentation (P
+PT) that showcases the features and functionalities of the event planner web application.
 - Highlight the significance of event planning and management in various contexts.
 - Provide demonstrations and examples to illustrate the practical applications of the event planner in different scenarios.
 """)
@@ -42,7 +43,7 @@ st.header("Submission Requirements:")
 st.markdown("""
 - Each group is required to submit one document that includes:
     - Generic questions related to event scheduling and management (Q1.Event handlers, Q2. Database constraints, Q3. Synergy of Python, WebFramework and Database - submitted by Student 1).
-    - HTML, CSS, and JavaScript files of the event planner web application (submitted by Student 2).
+    - Appt files of the event planner web application (submitted by Student 2).
     - PowerPoint presentation (PPT) highlighting the significance of the event planner and demonstrating its features (submitted by Student 3).
 - Ensure that the submission is cohesive and represents the collaborative effort of all group members.
 - Submit the document by the specified deadline.
