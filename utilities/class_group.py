@@ -9,7 +9,7 @@ st.title("Class Groups")
 # Function to load and display the image
 def display_class_group_image():
     # Define the path to the image file
-    image_path = r"\group.png"
+    image_path = r"group.png"
     
     # Display the image
     st.image(image_path, caption="Group Image")
