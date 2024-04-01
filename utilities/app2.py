@@ -3,9 +3,7 @@ import pandas as pd
 def class_lectures():
     st.header("What is Pandas?")
     st.write("Pandas is a Python library used for data manipulation and analysis. It provides easy-to-use data structures and functions, making it powerful for working with structured data.")
-
     st.header("Basic Elements of Pandas")
-    
     st.subheader("1. DataFrame")
     st.write("DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It is similar to a spreadsheet or SQL table.")
     st.code("import pandas as pd\n\n# Create DataFrame\ndata = {'Name': ['John', 'Emma', 'Peter'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data)")
