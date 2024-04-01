@@ -169,7 +169,6 @@ def main():
     elif tab == 'Examples':
         # Explore the dataset
         explore_data(df)
-
         # Filter and Modify Data
         filter_and_modify_data(df)
 
