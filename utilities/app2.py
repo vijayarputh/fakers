@@ -7,18 +7,14 @@ def class_lectures():
     st.subheader("1. DataFrame")
     st.write("DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It is similar to a spreadsheet or SQL table.")
     st.code("import pandas as pd\n\n# Create DataFrame\ndata = {'Name': ['John', 'Emma', 'Peter'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data)")
-
     st.subheader("2. Series")
     st.write("Series is a one-dimensional labeled array capable of holding any data type.")
     st.code("import pandas as pd\n\n# Create Series\ns = pd.Series([10, 20, 30, 40, 50])")
-
     st.subheader("3. Index")
     st.write("Index is a unique identifier for rows in a DataFrame or labels for elements in a Series.")
     st.code("import pandas as pd\n\n# Create DataFrame with custom index\ndata = {'Name': ['John', 'Emma', 'Peter'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data, index=['A', 'B', 'C'])")
-
     st.header("Object Data Indexing")
     st.write("Pandas provides various methods for indexing and selecting data in a DataFrame or Series.")
-
     st.subheader("DataFrame.loc[]")
     st.write("Access a group of rows and columns by labels.")
     st.code("df.loc['A']  # Select row with index 'A'")
