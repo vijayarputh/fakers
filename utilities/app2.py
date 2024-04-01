@@ -166,7 +166,6 @@ def main():
         
     elif tab == 'Class Lectures':
         class_lectures()
-
     elif tab == 'Examples':
         # Explore the dataset
         explore_data(df)
